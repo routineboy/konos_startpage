@@ -1,0 +1,26 @@
+@font-face {
+  font-family: monaco;
+  src: url("fonts/monaco.ttf");
+}
+
+@font-face {
+  font-family: terminus;
+  src: url("fonts/TerminusTTF-4.39.ttf");
+} 
+
+* {
+	font-family: terminus, monaco, sans-serif;
+	font-weight: 12;
+} 
+
+html {
+	overflow: hidden;
+}
+
+body {
+  background: url("http://50.72.73.61/drive_a/konos/background-images/forest_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

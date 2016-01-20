@@ -1,0 +1,87 @@
+.terminal_0 {
+	border: 3px solid #D5C5C8;
+	background-color: #604D53;
+	position: absolute;;
+	color: #fff;
+	height: 200px;
+	width: 500px;
+  margin: 0 auto;
+  top: 20px;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 1px;
+}
+
+.command_style {
+	position: absolute;
+	top: 0px;
+	font-size: 15px;
+}
+
+.cursor_not_blinking {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.blinking_cursor {
+	position: absolute;
+	font-size: 25px;
+	font-weight: 100;
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+
+#contenteditable {
+  display: none;
+}

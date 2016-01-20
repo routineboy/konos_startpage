@@ -1,0 +1,188 @@
+.music {
+	overflow: hidden;
+	position: absolute;
+	margin: 0 auto;
+	top: 250px;
+	right: 0;
+	left: 0;
+	height: 500px;
+	width: 500px;
+	background-color: #4F646F;
+	border: 3px solid #DEE7E7;
+	color: #F4FAFF;
+}
+
+.song_image {
+	overflow: hidden;
+	position: absolute;
+	margin: 0 auto;
+	top: 70px;
+	left: 0;
+	right: 0;
+	height: 70%;
+	width: 87%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.progress_bar {
+	cursor: pointer;
+	position: absolute;
+	margin: 0 auto;
+	top: 450px;
+	left: 0;
+	right: 0;
+	height: 5px;
+	border-radius: 3px;
+	width: 87%;
+	background-color: #F4FAFF;
+
+}
+
+.progress_point {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	margin-left: -6px;
+	top: -6px;
+	background-color: #F4FAFF;
+}
+
+.playlist_name {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 15%;
+}
+
+.number_of_songs {
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 75%;
+}
+
+#find_text {
+	position: absolute;
+	font-size: 15px;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+
+#temp {
+	position: absolute;
+	font-size: 15px;
+	margin-top: 4px;
+}
+
+#find_container {
+	position: fixed;
+	top: 729px;
+	width: 500px;
+	height: 25px;
+	background-color: #332E3C;
+	overflow: hidden;
+}
+
+#title {
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+}
+
+#song_title {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+}
+
+#seconds {
+  position: absolute;
+  left: 50%;
+  top: 460px;
+  transform: translate(-50%,-50%);
+}
+
+.currently_playing {
+	position: fixed;
+	top: 712px;
+	width: 500px;
+	height: 40px;
+	background-color: #332E3C;
+}
+
+#currently_playing_name {
+	position: absolute;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#currently_playing_sec {
+	position: absolute;
+	font-size: 15px;
+	margin-left: 415px;
+	margin-top: 10px;	
+}
+
+
+.blinking_cursor_music {
+	position: absolute;
+	top: -2px;
+	font-size: 25px;
+	font-weight: 100;
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
